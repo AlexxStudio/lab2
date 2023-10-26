@@ -40,3 +40,4 @@ def decrypt_caesar(ciphertext: str, shift: int = 3) -> str:
         else:
             plaintext += chr((chr_num - 65 - shift) % 26 + 65)
     return plaintext
+
